@@ -19,6 +19,7 @@ below necessary changes according to the requirement:
     -Line 112: server.login(sender_email, "Enter Your App Password")
         To set your App Password ,refer this document:  https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1
         [Please note that try not use your MAIN GMAIL ACCOUNT FOR THIS PURPOSE- try making a another gmail account for such purposes to avoid any Cyber crime/Hacking]
+https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L17
 
     -Line 122- #Enter the districts with district id in the given format and include that component in dist_ids:
         The file named districts.csv is attached along with it. Refer to your district and its Id and paste it in the given format as given in the code.
