@@ -39,3 +39,6 @@ the directory and write: -\> python vaccinetrackingtrigger.py
 
 5.To close the triggering updates, simply close the command prompt and
 you good to go.
+
+
+![MailSS](https://user-images.githubusercontent.com/83569942/116973094-a7524700-acd9-11eb-90e3-4638f06000a0.PNG)
