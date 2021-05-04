@@ -19,18 +19,18 @@ below necessary changes according to the requirement:
         To set your App Password ,refer this document:  https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1
         [Please note that try not use your MAIN GMAIL ACCOUNT FOR THIS PURPOSE- try making a another gmail account for such purposes to avoid any Cyber crime/Hacking]
 
-   * Line 122- #Enter the districts with district id in the given format and include that component in dist_ids:
+* ([Line 122](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L122))  : #Enter the districts with district id in the given format and include that component in dist_ids:
         The file named districts.csv is attached along with it. Refer to your district and its Id and paste it in the given format as given in the code.
         You can add multiple cities also.
 
-   * Line 128: sender_email="xyz@gmail.com"
+* ([Line 128](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L128))  : sender_email="xyz@gmail.com"
         Enter the gmail to which you have set the App Password 
 
-   * Line 129: receiver_email_1 = "abc@gmail.com"
+* ([Line 129](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L129))  : receiver_email_1 = "abc@gmail.com"
         Enter the gmail where you want to receive updates for vaccination slots.
         You can enter the same email address as os sender_email as given above.
 
-    * Line 134: s.enter(60, 1, do_something, (sc,)) 
+* ([Line 134](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L134))  : s.enter(60, 1, do_something, (sc,)) 
         60= You can change the integer value according to your requirement. It represents the time period which will trigger the email update if any slot is found.
 
 4.Open the folder where the .py file is stored, Run the cmd command on
