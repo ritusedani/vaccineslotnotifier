@@ -131,7 +131,7 @@ def do_something(sc):
     availability_data = get_availability(dist_ids, min_age_limit)
     send_email(availability_data, min_age_limit,sender_email, receiver_email)
 
-    s.enter(30, 1, do_something, (sc,)) #Here 60 represents 1min=60 secs.You can increase the period accordingly to receive email updates.
+    s.enter(60, 1, do_something, (sc,)) #Here 60 represents 1min=60 secs.You can increase the period accordingly to receive email updates.
 
 s.enter(1, 1, do_something, (s,))
 s.run()
