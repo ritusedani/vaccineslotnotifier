@@ -1,4 +1,5 @@
-VaccineSLotNotifier
+<h2><b>VaccineSLotNotifier</b></h2>
+***
 
 VaccineSLotNotifier checks the cowin portal periodically to find
 vaccination slots available in your district with the age filter already
