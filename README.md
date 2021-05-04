@@ -16,7 +16,7 @@ pip install pandas -\> pip install requests -\> pip install retry
 3.Open the vaccinetrackingtrigger.py file in the notepade++, make the
 below necessary changes according to the requirement:
 
-    -Line 112: server.login(sender_email, "Enter Your App Password")
+    - ([Line 112](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L112))  : server.login(sender_email, "Enter Your App Password")
         To set your App Password ,refer this document:  https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1
         [Please note that try not use your MAIN GMAIL ACCOUNT FOR THIS PURPOSE- try making a another gmail account for such purposes to avoid any Cyber crime/Hacking]
 
