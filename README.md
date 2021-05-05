@@ -29,7 +29,7 @@ below necessary changes according to the requirement:
 
 * ([Line 129](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L129))  : receiver_email_1 = "abc@gmail.com"
         Enter the gmail where you want to receive updates for vaccination slots.
-        You can enter the same email address as os sender_email as given above.
+        You can enter the same email address as  sender_email as given above.
 
 * ([Line 134](https://github.com/ritusedani/vaccineslotnotifier/blob/4a11996d909edc2375cda691ec0520ac5f39e560/vaccinetrackingtrigger.py#L134))  : s.enter(60, 1, do_something, (sc,)) 
         60= You can change the integer value according to your requirement. It represents the time period which will trigger the email update if any slot is found.
