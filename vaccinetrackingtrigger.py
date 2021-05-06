@@ -13,7 +13,7 @@ import pandas as pd
 import requests
 from retry import retry
 
-
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 def get_all_district_ids():
     district_df_all = None
     for state_code in range(1, 40):
@@ -33,7 +33,7 @@ def get_all_district_ids():
 @cachetools.func.ttl_cache(maxsize=100, ttl=30 * 60)
 @retry(KeyError, tries=5, delay=2)
 def get_data(URL):
-    response = requests.get(URL, timeout=3)
+    response = requests.get(URL, timeout=3,headers=headers)
     print(response)
     data = json.loads(response.text)['centers']
     return data
